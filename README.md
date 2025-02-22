@@ -11,8 +11,14 @@ ________________________________________________________________________________
 4. git --version     }==>  this is use for check git version. <br>
 5. clear             }==>  this is use for clear terminal <br>
 6. git clone Https-link   }==> (https-link) is your repostry link which you are clone on your local code editor. example:- git clone https:github.com/repostry <br>
-7. cd foler-name               }==>  this is use for change directory ( means change folder ). example:- cd git-course v
+7. cd foler-name               }==>  this is use for change directory ( means change folder ). example:- cd git-course <br>
 8. ls                }==>  this is list file. it is use for check files in folder. <br>
 9. ls -a             }==>  this command is use for check hidden files in folder. this is provide .git folder which is hidden. <br>
 10. git status        ]==>  this is help to check status of your clone repostry menas:- ( On github repostry content is similar to local clone file. ) <br>
+<br>
+-------------- git status type ---------------
+1. untracked:- Your are create a new file in local code editor but this is not preset on github <br>
+2. modified:- Your are change text or add more text in code editor but not add on github through ( git add . ) command.<br>
+3. staged:- You are add file through (git add .) command but not do commit. <br>
+4. unmodified:- not change or not add something in file.
 
