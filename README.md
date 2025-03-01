@@ -29,6 +29,13 @@ ________________________________________________________________________________
 15. cd .. :- this is use for outside of folder. <br>
 16. mkdir folder-name :- this use for create new folder. example:- mkdir css-course. <br>
 17. git init :- it is use for make git repostry to new folder. <br>
-18. git remote add orgin
+18. git remote add orgin link :- it is use for link repostry which are create in github without "README.md" file. orgin is branch name. example:- git remote add orgin https/github/newfile-js <br>
+19. git remote -v :- it is use for verify to connect correct repo which are crete. <br>
+20. git branch :- it is use for check currect branch in which you are work. by default branch is "main". old name is "master". <br>
+21. git branch -M new-name :-it is use for rename the name of branch. example:- git branch -M master <br>
+22. git push origin master :- it is use for create or rename branch to puch on github. <br>
+23. git push -u origin master :- it is use for short cut for push code on github for long time work on master branch. after that create "README.md" file in local code. next use git add . and git commit -m mms. and last push the code sue of git push command. <br>
+<br>
+# ------------- Easy work flow of conect github repo to VS-Code edtior -----------------------
 
 
