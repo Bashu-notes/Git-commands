@@ -3,8 +3,8 @@ Basic git commands :-
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
 <br>
 # ------------------------ Git Bash in use below commands ------------------------- <br>
-1. git config –global user.name “Your Name”   }==>   git config –global user.name “Bashu-notes” <br>
-2. git config –global user.email “Your email”   }==>   git config –global user.email “demo@gmail.com” <br>
+1. git config -–global user.name “Your Name”   }==>   git config -–global user.name “Bashu-notes” <br>
+2. git config –-global user.email “Your email”   }==>   git config -–global user.email “demo@gmail.com” <br>
 3. git config --list   }==>   it's provide your name ,emial and (credential.helper=manager) list. <br>
 <br>
 # ----------------------- Now, use vs code edtior commands in terminal ------------------------- <br>
@@ -46,14 +46,21 @@ ________________________________________________________________________________
 <br>
 24 cd .. :- it is use for exit to current folder or directory. <br>
 25. git checkout -b new-branch :- it is use for create new branch. example:- git checkout -b custom <br>
-26. git checkout branch-name :- it is use for change branch to move another branch. example:- git checkout branch main <br>
+26. git checkout branch-name :- it is use for change branch to move another branch. example:- git checkout main <br>
 27. git branch -d branch-name :- it is use for delete branch. make sure not write branch-name which are you currently working so, show error. example:- git branch -d custom <br>
 28. git push origin custom :- Now this command push code on custom branch. so write brnach name which are working ( carefull ). <br>
 29. git diff comp-branch-name :- it use for comapre what differance current branch vs to another branch. example:- git diff custom <br>
 <br>
 # --------------- Me+rge the branches are to way 1. "git merge branch-name" command and 2. create PR with pull request ------------------------- <br>
-30.
-
-
-
+30. I have use pull request method. it is perfom on github in which repo currently work. <br>
+31. git pull origin main :- it is use fetch updated from remote (Github) to loacl vs-code editor like:- Now merge content in both branch. <br>
+32. git pull origin cutom :- also it is use for fetch the data from github custom branch to local system. <br>
+33. git merge branch-main :- it is use for merge the current work branch to specific branch like main. it is second method and perfom on local editor.  :- git merge main <br>
+34. git merge custom :- it is also merge the code on custom name branch. after that push code to remote through "git push origin main" command<br>
+<br>
+# ---------------- For undo means Back to the step. this is apply on three stages ------------------ <br>
+35. git reset :- it use for when i have delete and add the content. run the "git add ." command , but I want previous content. it's first stage. <br>
+36. git reset HEAD~1 :- it use when run the "git commit" comand. but you need reset so use this command. HEAD is last change step. <br>
+37. git log:- it's provide steps whcih are currenty use. It also call hesh # values. <br>
+38. git reset --hard :- it use for hard reset then show the previous data. <br>
 
